@@ -1,0 +1,23 @@
+{
+  "molecule": "h2",
+  "steps": 20,
+  "walkers": 32,
+  "mcmc_steps": 4,
+  "burn_in": 10,
+  "device": "cuda",
+  "periodic_cell": [
+    [8.0, 0.0, 0.0],
+    [0.0, 8.0, 0.0],
+    [0.0, 0.0, 8.0]
+  ],
+  "network": {
+    "hidden": 48,
+    "pair_hidden": 16,
+    "layers": 2,
+    "hidden_density": 2
+  },
+  "optimizer": {
+    "name": "adam",
+    "lr": 0.0002
+  }
+}

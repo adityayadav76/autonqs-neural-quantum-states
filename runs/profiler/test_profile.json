@@ -1,0 +1,83 @@
+{
+  "molecule": "h2",
+  "steps": 1,
+  "walkers": 4,
+  "device": "cpu",
+  "torch_version": "2.11.0+cu128",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "python": "3.11.0",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "wall_seconds": 2.0497708000038983,
+  "train_seconds": 0.06122180000238586,
+  "steps_per_second": 16.33405094200153,
+  "parameters": 6522,
+  "cuda_memory": null,
+  "result": {
+    "molecule": "h2",
+    "device": "cpu",
+    "data_parallel": false,
+    "seed": 7,
+    "deterministic": true,
+    "electrons": 2,
+    "spin_counts": [
+      1,
+      1
+    ],
+    "parameters": 6522,
+    "seconds": 0.06122180000238586,
+    "steps_per_second": 16.33405094200153,
+    "history": [
+      {
+        "step": 1,
+        "energy": -0.48139551281929016,
+        "std": 1.5181840658187866,
+        "acceptance": 0.75,
+        "global_acceptance": 0.9375,
+        "step_size": 0.04265968971976578,
+        "loss": 0.42685890197753906
+      }
+    ],
+    "final_energy": -0.48139551281929016,
+    "best_energy": -0.48139551281929016,
+    "sampler": {
+      "acceptance_rate": 0.9375,
+      "step_size": 0.04265968971976578,
+      "total_proposals": 16
+    },
+    "reference": {
+      "molecule": "h2",
+      "has_reference": true,
+      "reference_energy_hartree": -1.174475,
+      "energy_hartree": -0.48139551281929016,
+      "error_hartree": 0.6930794871807098,
+      "abs_error_hartree": 0.6930794871807098,
+      "within_tolerance": false,
+      "tolerance_hartree": 0.02,
+      "source": "Near-exact H2 equilibrium energy around 0.74 Angstrom"
+    },
+    "analysis": {
+      "points": 1,
+      "best_energy": -0.48139551281929016,
+      "final_energy": -0.48139551281929016,
+      "energy_blocks": {
+        "mean": -0.48139551281929016,
+        "stderr": 0.0,
+        "blocks": 1,
+        "block_size": 5
+      },
+      "reference": {
+        "molecule": "h2",
+        "has_reference": true,
+        "reference_energy_hartree": -1.174475,
+        "energy_hartree": -0.48139551281929016,
+        "error_hartree": 0.6930794871807098,
+        "abs_error_hartree": 0.6930794871807098,
+        "within_tolerance": false,
+        "tolerance_hartree": 0.02,
+        "source": "Near-exact H2 equilibrium energy around 0.74 Angstrom"
+      }
+    },
+    "forces": null
+  }
+}

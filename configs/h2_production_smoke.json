@@ -1,0 +1,35 @@
+{
+  "molecule": "h2",
+  "steps": 400,
+  "walkers": 128,
+  "mcmc_steps": 10,
+  "burn_in": 100,
+  "step_size": 0.08,
+  "target_acceptance": 0.6,
+  "adapt_mcmc": true,
+  "device": "cuda",
+  "dtype": "float32",
+  "seed": 7,
+  "log_every": 10,
+  "energy_batch_size": 64,
+  "data_parallel": false,
+  "estimate_forces": true,
+  "analysis_block_size": 5,
+  "checkpoint_path": "runs/h2/checkpoint.pt",
+  "checkpoint_every": 50,
+  "network": {
+    "hidden": 96,
+    "pair_hidden": 32,
+    "layers": 3,
+    "hidden_density": 8,
+    "cusp_envelope": true
+  },
+  "optimizer": {
+    "name": "sr",
+    "lr": 0.001,
+    "damping": 0.005,
+    "momentum": 0.9,
+    "stat_decay": 0.95,
+    "update_freq": 1
+  }
+}

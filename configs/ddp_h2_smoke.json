@@ -1,0 +1,28 @@
+{
+  "molecule": "h2",
+  "steps": 50,
+  "walkers": 64,
+  "mcmc_steps": 8,
+  "burn_in": 25,
+  "device": "cuda",
+  "data_parallel": false,
+  "distributed": {
+    "enabled": true,
+    "backend": "nccl",
+    "init_method": "env://",
+    "world_size": 1,
+    "rank": 0,
+    "local_rank": 0
+  },
+  "network": {
+    "hidden": 64,
+    "pair_hidden": 24,
+    "layers": 2,
+    "hidden_density": 4
+  },
+  "optimizer": {
+    "name": "natural",
+    "lr": 0.0002,
+    "damping": 0.001
+  }
+}

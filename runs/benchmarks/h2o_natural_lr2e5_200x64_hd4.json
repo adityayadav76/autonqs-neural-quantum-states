@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "steps": 200,
+    "walkers": 64,
+    "hidden": 64,
+    "hidden_density": 4,
+    "optimizer": "natural",
+    "device": "cuda",
+    "energy_for_table": "final checkpoint energy"
+  },
+  "rows": [
+    {
+      "system": "h2o",
+      "calculated_energy_hartree": -43.630340576171875,
+      "reference_energy_hartree": -76.438,
+      "error_hartree": 32.80765942382813,
+      "abs_error_hartree": 32.80765942382813,
+      "within_tolerance": false,
+      "tolerance_hartree": 0.1,
+      "best_checkpoint_energy_hartree": -66.01895141601562,
+      "block_mean_energy_hartree": -52.49649454752605,
+      "block_stderr_hartree": 3.624840631722026,
+      "seconds": 423.8833386999904
+    }
+  ]
+}

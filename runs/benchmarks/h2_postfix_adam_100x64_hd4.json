@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "steps": 100,
+    "walkers": 64,
+    "hidden": 64,
+    "hidden_density": 4,
+    "optimizer": "adam",
+    "device": "cuda",
+    "energy_for_table": "final checkpoint energy"
+  },
+  "rows": [
+    {
+      "system": "h2",
+      "calculated_energy_hartree": -1.1535683870315552,
+      "reference_energy_hartree": -1.174475,
+      "error_hartree": 0.02090661296844476,
+      "abs_error_hartree": 0.02090661296844476,
+      "within_tolerance": false,
+      "tolerance_hartree": 0.02,
+      "best_checkpoint_energy_hartree": -1.208935022354126,
+      "block_mean_energy_hartree": -0.8513905654350916,
+      "block_stderr_hartree": 0.2519879696117612,
+      "seconds": 37.93576559999201
+    }
+  ]
+}
