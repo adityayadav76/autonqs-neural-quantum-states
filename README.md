@@ -5,7 +5,7 @@ A Research Grade Framework For Quantum Chemistry using Pytorch
 
 ## About
 
-This repository contains a research grade implementation of Quantum Chemistry using Fermi Neural Networks created by [Automatski](https://automatski.com). 
+This repository contains a research grade implementation of Quantum Chemistry using Neural Quantum States created by [Automatski](https://automatski.com). 
 
 AutoNQS is a PyTorch NQS/RBM-style variational Monte Carlo framework for molecular ground-state calculations on CUDA GPUs. It now includes a closer continuous-coordinate neural quantum state ansatz, cusp-aware log factors, adaptive MCMC, natural-gradient and K-FAC-style optimizers, checkpointing, JSON configs, metric logs, benchmark systems, excited-state penalties, periodic cells, pseudopotentials, force
 estimation, distributed wrappers, and result analysis.
