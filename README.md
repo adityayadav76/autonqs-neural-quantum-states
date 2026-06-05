@@ -159,3 +159,31 @@ Everyday we are inventing new ways using both Quantum Computing and Classical Co
 [Neural quantum-state states for ab-initio electronic structure](paper.pdf)
 
 [Neural network backflow for ab-initio quantum chemistry](paper2.pdf)
+
+
+# Automatski's Quantum SDKs (**Free)
+
+[Quantum Annealing SDK](https://bit.ly/4ej7yaw)
+
+[Getting Started With Quantum Annealing Video](https://youtu.be/-wKqcIKxY0A)
+
+
+[Quantum Computing SDK](https://bit.ly/3XU7NDX)
+
+[Getting Started With Quantum Computing Video](https://youtu.be/o4x0YWJ4YMw)
+
+# Automatski's Quantum Playground (**Free)
+
+[Microsoft Store](https://apps.microsoft.com/detail/9pnb2mvczxh4?hl=en-US&gl=IN)
+
+[Windows Installer](https://automatski-public-s3.s3.amazonaws.com/QuantumPlayground-1.0.0-Setup.exe)
+
+[Ubuntu/Debian Installer](https://automatski-public-s3.s3.amazonaws.com/automatski-quantum-playground_1.0.0_amd64.deb)
+
+[Mac M1-M5 Installer](https://automatski-public-s3.s3.amazonaws.com/automatski-quantum-playground_1.0.0_mac.dmg)
+
+# Curiosity - AI Coding Agent (**FREE)
+
+[Microsoft Store](https://apps.microsoft.com/detail/9pf2qb6zxksj?hl=en-US&gl=IN)
+
+[Windows Installer](https://automatski-public-s3.s3.amazonaws.com/CuriositySetup-0.1.0.exe)
